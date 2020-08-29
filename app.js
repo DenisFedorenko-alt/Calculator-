@@ -15,7 +15,7 @@ function equalNumbs() {
     if (sqreen.textContent) {
         sqreen.textContent = eval(sqreen.textContent)
     } else {
-        console.log("dddd")
+        alert("Enter numbers")
     }
 }
 
@@ -25,7 +25,7 @@ document.querySelectorAll(".button").forEach(button => button.addEventListener("
 
 const clean = document.querySelector(".clean");
 const deleteNum = document.querySelector(".delete");
-let sqreen = document.querySelector(".sqreen");
+const sqreen = document.querySelector(".sqreen");
 const equal = document.querySelector(".equal");
 
 equal.addEventListener("click", equalNumbs)
